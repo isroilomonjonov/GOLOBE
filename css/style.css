@@ -6,3 +6,13 @@
 
 /* initial-style */
 @import "./initial-style.css";
+
+/* main-styles */
+
+/* CONTAINER */
+.container {
+    width: 100%;
+    max-width: 1168px;
+    margin-left: auto;
+    margin-right: auto;
+}
