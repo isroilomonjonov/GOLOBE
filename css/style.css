@@ -11,8 +11,113 @@
 
 /* CONTAINER */
 .container {
-    width: 100%;
-    max-width: 1168px;
-    margin-left: auto;
-    margin-right: auto;
+  width: 100%;
+  max-width: 1168px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* HEADER */
+.site-header-wrapper {
+  padding: 24px 32px;
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.6) 10%,
+      rgba(0, 0, 0, 0) 100%
+    ),
+    url("../img/header-bg.jpeg");
+  background-position: 50% 33%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  border-radius: 24px;
+}
+.site-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__find-btns-container {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+}
+.header__find-btn {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.header__find-btn__icon {
+  width: 24px;
+  height: 24px;
+}
+.header__find-btn__text {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.header__logo {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 110.353px;
+  height: 36px;
+}
+.logo {
+}
+.header__auth-btns-container {
+  display: flex;
+  gap: 32px;
+}
+.auth-btn {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.auth-fill-btn {
+  padding: 10px 24px;
+  border-radius: 8px;
+  background: var(--Neutrals);
+  color: var(--Blackish-Green);
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.site-hero {
+}
+.hero__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 84px;
+}
+.hero__second-heading {
+  font-family: "TradeGothic LT";
+  font-size: 45px;
+  font-weight: bold;
+  line-height: normal;
+  margin-bottom: 4px;
+}
+.hero__heading {
+  font-family: "TradeGothic LT";
+  font-size: 80px;
+  font-weight: bold;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+.hero__heading-title {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
