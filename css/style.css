@@ -19,6 +19,7 @@
 
 /* HEADER */
 .site-header-wrapper {
+  position: relative;
   padding: 24px 32px;
   background-image: linear-gradient(
       180deg,
@@ -120,4 +121,115 @@
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+}
+
+/* flights-feature section */
+.flights-feature-wrapper {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+}
+.flights-feature-container {
+  display: flex;
+  /* width: 1232px; */
+  padding: 16px 32px 32px 32px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  border-radius: 16px;
+  background: var(--Neutrals);
+  box-shadow: 0px 4px 16px 0px rgba(141, 211, 187, 0.15);
+  color: var(--Blackish-Green);
+}
+.flights-feature__btns-container {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+}
+.flights-feature__btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 46px;
+  border-bottom: 4px solid transparent;
+  transition: border ease 0.1s;
+}
+.flights-feature__btn:hover {
+  border-bottom: 4px solid rgba(141, 211, 187, 1);
+}
+.flights-feature__btn-extra-line {
+  width: 1px;
+  min-height: 46px;
+  background: #d7e2ee;
+}
+.flights-feature__btn__icon {
+  width: 24px;
+  height: 24px;
+  fill: var(--Blackish-Green);
+}
+.flights-feature__btn__text {
+  color: var(--Blackish-Green);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.flights-feature__form {
+  width: 100%;
+}
+.flights-feature__form-label-container {
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  width: 100%;
+}
+.flights-feature__form-label {
+  flex: 1;
+  border-radius: 4px;
+  padding: 8px;
+  border: 1px solid rgba(121, 116, 126, 1);
+  color: #1c1b1f;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.flights-feature__form-input {
+  width: 100%;
+  padding: 10px;
+}
+.flights-feature__form-btn-container {
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 24px;
+}
+.flights-feature__form-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1px;
+  padding: 16px;
+}
+.flights-feature__form-btn__icon {
+  width: 16px;
+  height: 16px;
+}
+.flights-feature__form-btn__text {
+  color: var(--Blackish-Green);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.flights-feature__form-btn-light {
+  border-radius: 4px;
+  background: var(--Mint-Green);
 }
