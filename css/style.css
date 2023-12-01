@@ -32,6 +32,7 @@
   background-size: cover;
   height: 600px;
   border-radius: 24px;
+  margin-bottom: 200px;
 }
 .site-header {
   display: flex;
@@ -232,4 +233,86 @@
 .flights-feature__form-btn-light {
   border-radius: 4px;
   background: var(--Mint-Green);
+}
+/* plan-perfect-trip-section */
+.plan-perfect-trip-section {
+  padding-top: 80px;
+  color: var(--Blackish-Green);
+}
+.plan-perfect-trip-section__main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.plan-perfect-trip-section__main__div {
+  display: flex;
+  flex-direction: column;
+}
+.plan-perfect-trip-section__main__heading {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.plan-perfect-trip-section__main__text {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.no-bg-main-btn {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border-radius: 4px;
+  border: 1px solid var(--Mint-Green);
+  padding: 8px 16px;
+  transition: all 0.2s linear;
+}
+.no-bg-main-btn:hover {
+  background-color: var(--Mint-Green);
+}
+.plan-perfect-trip-section__card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 32px;
+  grid-row-gap: 32px;
+}
+.plan-perfect-trip-section__card {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 16px;
+  border-radius: 16px;
+  background: var(--Neutrals);
+  box-shadow: 0px 4px 16px 0px rgba(17, 34, 17, 0.05);
+}
+.plan-perfect-trip-section__card__img {
+  border-radius: 8px;
+}
+.plan-perfect-trip-section__card__text-contaner {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.plan-perfect-trip-section__card__text-contaner_text {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.plan-perfect-trip-section__card__text-contaner_category {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
