@@ -230,7 +230,7 @@
   font-weight: 500;
   line-height: normal;
 }
-.flights-feature__form-btn-light {
+.btn-light {
   border-radius: 4px;
   background: var(--Mint-Green);
 }
@@ -315,4 +315,47 @@
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+}
+/* show-hotels-flights-section */
+.show-hotels-flights-section {
+  margin-top: 80px;
+  padding-bottom: 70px;
+}
+.show-hotels-flights-section-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+.show-hotels-flights-card {
+  width: 50%;
+  height: 559px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 8px;
+  flex-direction: column;
+  padding: 24px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.show-hotels-flights-card__main-text {
+  color: var(--Neutrals);
+  text-align: center;
+  font-family: TradeGothic LT Extended;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.show-hotels-flights-card__main-comment {
+  color: var(--Neutrals);
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 389px;
 }
